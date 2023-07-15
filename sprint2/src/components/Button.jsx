@@ -1,7 +1,7 @@
 import React from "react";
 
-export const ButtonWithColor = (Button) => {
-  return <Button />;
+export const PrimaryButton = (Button) => {
+  return <Button className="bg-primary" />;
 };
 
 const Button = () => {
